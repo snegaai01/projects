@@ -1,26 +1,24 @@
 
-print("hello world");
-x=10;
-print(x);
-txt = "The best things in life are free!"
-if "free" in txt:
-  print("Yes, 'free' is present.")
-  txt= "snega is a snake"
-  if "snake" in txt:
-  	print("yes snake' is present");
-  else:
-  	print("no, 'snake' is not present");
-  d=10;
-  b=20;
-  c=d+b;
-  print(c);
+print("hello world")
+x=10
+print(x)
 
-g=str("snega");
-print(g);
-h=int(6);
-print(h);
+txt= "snega is a snake"
+if "snake" in txt:
+  	print("yes snake is present")
+else :
+      print("no snake is not present")
+d=10
+b=20
+c=d+b
+print(c)
 
-print(type(x));
+g=str("snega")
+print(g)
+h=int(6)
+print(h)
+
+print(type(h))
 
 n=int(input("Enter a number:"))
 factorial=n
