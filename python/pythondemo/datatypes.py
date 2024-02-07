@@ -89,7 +89,7 @@ print(ab<ba)
 print(ab>12 and ab<12)
 print(ab<12 or ab<12)
 
-c=["car1","car2","car3"]
+c=["car1","car3","car2"]
 c[2]="car4"
 print(c)
 print(len(c))
@@ -110,10 +110,39 @@ print(av)
 
 c.extend(c1)
 print(c)
+ 
+c.sort()
+print(c)
+
+c.reverse()
+print(c)
+ 
+c.insert(2,"snega")
+print(c) 
+
+for s in c:
+    print(s)
 
 c1.clear()
 print(c1)
 
+for x in "Tamil Muthumani":
+    print(x)
 
+
+
+
+
+x = 29
+b = 23
+if x>b : print("crct")
+
+
+i = 1
+while i < 12:
+  print(i)
+  if (i == 9):
+    break
+  i += 2
 
 
