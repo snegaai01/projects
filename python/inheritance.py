@@ -46,3 +46,22 @@ class mkazhagiri(grandparents):
 x=mkazhagiri("Tamil","srinidhi","Mental ", "punitha", "snega")
 x.welcome()
 x.thanks()
+
+
+
+class sonname(grandparents):
+    def __init__(self, grandpaname, grandmaname, familyname, fathername,mothername,sonname,son2name):
+        self.fathername=fathername
+        self.mothername=mothername
+        self.sonname=sonname
+        self.son2name=son2name
+        super().__init__(grandpaname, grandmaname, familyname)
+
+    def thank(self):
+        print("Hi..! Granpa ", self.grandfathername ,"and Grandma ", self.grandmothername , " We ", self.fathername, "and ", self.mothername, " thank you for warm welcome to our " , self.familyname, "family",self.sonname, "srinidhi",self.son2name, "tamil")
+
+
+x=sonname("Tamil","srinidhi","Mental ", "punitha", "snega","sri","Tamil selvi")
+
+x.thank()
+
